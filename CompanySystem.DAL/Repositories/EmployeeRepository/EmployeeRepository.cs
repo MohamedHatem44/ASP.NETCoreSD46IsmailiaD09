@@ -23,10 +23,5 @@ namespace CompanySystem.DAL
                 .FirstOrDefault(e => e.Id == EmployeeID);
         }
         /*------------------------------------------------------------------*/
-        //public int Save()
-        //{
-        //    return _context.SaveChanges();
-        //}
-        /*------------------------------------------------------------------*/
     }
 }
